@@ -1,0 +1,61 @@
+# BeaconWaypoints Configuration
+
+# Language (en, zh)
+language: zh
+
+# Maximum number of public waypoints
+max-public-waypoints: 100
+
+# Maximum number of private waypoints per player
+max-private-waypoints: 30
+
+# Force alphanumeric waypoint names (no special characters)
+force-alphanumeric-names: false
+
+# Maximum waypoint name length
+max-name-length: 32
+
+# Public waypoint menu rows (2-5; one row is reserved for navigation)
+public-waypoint-menu-rows: 3
+
+# Private waypoint menu rows (2-5; one row is reserved for navigation)
+private-waypoint-menu-rows: 2
+
+# Height to launch players through the beacon beam (in blocks, raised to world max height if lower)
+launch-player-height: 576
+
+# Disable group teleporting (leashed entities)
+disable-group-teleporting: false
+
+# Allow beacon break by waypoint owner
+allow-beacon-break-by-owner: true
+
+# Discovery mode (waypoints discovered on first interaction)
+discovery-mode: false
+
+# Allow waypoints in all worlds
+allow-all-worlds: true
+
+# Allowed worlds (if allow-all-worlds is false)
+allowed-worlds:
+  - world
+  - world_nether
+  - world_the_end
+
+# Available waypoint icons
+waypoint-icons:
+  - BEACON
+  - ENDER_PEARL
+  - ENDER_EYE
+  - COMPASS
+  - CLOCK
+  - MAP
+  - FIREWORK_ROCKET
+  - BLAZE_POWDER
+  - GHAST_TEAR
+  - DIAMOND
+  - EMERALD
+  - GOLD_INGOT
+  - IRON_INGOT
+  - NETHER_STAR
+  - END_CRYSTAL

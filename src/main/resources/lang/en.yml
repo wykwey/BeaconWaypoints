@@ -1,0 +1,76 @@
+# BeaconWaypoints English Language File
+
+command:
+  waypoint:
+    registered: "§aWaypoint §l{name}§r§a registered successfully!"
+    already-exists: "§cA waypoint already exists at this location."
+    duplicate-name: "§cYou already have a waypoint named §l{name}§r§c."
+    not-on-beacon: "§cYou must be standing on a beacon to register a waypoint."
+    beacon-not-active: "§cBeacon is not activated: it needs at least one layer of pyramid blocks beneath it."
+    name-too-long: "§cWaypoint name is too long. Maximum length: {max} characters."
+    name-invalid: "§cWaypoint name contains invalid characters."
+    limit-reached: "§cYou have reached the maximum number of {type} waypoints ({max})."
+    not-found: "§cWaypoint {name} not found."
+    deleted: "§aWaypoint §l{name}§r§a deleted."
+    shared: "§aShared waypoint §l{name}§r§a with {player}."
+    unshared: "§aUnshared waypoint §l{name}§r§a from {player}."
+    no-permission: "§cYou don't have permission to do that."
+    reloaded: "§aConfiguration reloaded."
+    world-not-allowed: "§cWaypoints are not allowed in this world."
+
+gui:
+  title:
+    public-waypoints: "Public Waypoints"
+    private-waypoints: "Your Private Waypoints"
+    icon-picker: "Choose Icon"
+    options: "Waypoint Options"
+    beacon-menu: "Beacon Menu"
+
+  button:
+    previous-page: "§ePrevious Page"
+    next-page: "§eNext Page"
+    page-info: "§7Page §e{page}§7/§e{total}"
+    back: "§eBack"
+    delete: "§cDelete Waypoint"
+    delete-confirm: "§4Click again to confirm deletion!"
+    change-icon: "§bChange Icon"
+    teleport: "§aTeleport to {name}"
+    settings: "§bSettings"
+    public-beacons: "§ePublic Beacons"
+    private-beacons: "§dPrivate Beacons"
+
+  lore:
+    settings: "§7Manage this beacon's waypoint"
+    public-beacons: "§7Browse all public waypoints"
+    private-beacons: "§7Browse your private waypoints"
+    waypoint:
+      - "§7Location: {x}, {y}, {z}"
+      - "§7World: {world}"
+      - "§7Owner: {owner}"
+      - ""
+      - "§eLeft-Click to teleport"
+    icon:
+      - ""
+      - "§eClick to select"
+    page:
+      - "§7Go to page {page}"
+
+  message:
+    icon-updated: "§aIcon updated to {icon}."
+
+teleport:
+  starting: "§bTeleporting to {name}..."
+  success: "§aArrived at {name}!"
+  cooldown: "§cPlease wait {seconds} seconds before teleporting again."
+  destination-not-active: "§cDestination beacon §l{name}§r§c is not activated. Returning home."
+
+beacon:
+  broken: "§cThe beacon with waypoint {name} has been destroyed."
+  discovered: "§aYou discovered a new waypoint: {name}"
+
+error:
+  database: "§cA database error occurred. Please contact an administrator."
+
+misc:
+  public: "public"
+  private: "private"

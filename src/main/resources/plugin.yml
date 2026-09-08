@@ -1,0 +1,16 @@
+name: BeaconWaypoints
+version: '1.0.0'
+main: com.wykwey.beaconwaypoints.BeaconWaypoints
+api-version: '26.2'
+description: A beacon waypoint system for teleportation
+authors:
+  - wykwey
+
+
+permissions:
+  beaconwaypoints.use:
+    description: Allows use of the waypoint command
+    default: true
+  beaconwaypoints.admin:
+    description: Allows administrative waypoint operations (reload, break/remove any waypoint)
+    default: op

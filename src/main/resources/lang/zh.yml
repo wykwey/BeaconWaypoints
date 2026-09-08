@@ -1,0 +1,76 @@
+# BeaconWaypoints 中文语言文件
+
+command:
+  waypoint:
+    registered: "§a路径点 §l{name}§r§a 注册成功！"
+    already-exists: "§c该位置已有路径点存在。"
+    duplicate-name: "§c你已经拥有名为 §l{name}§r§c 的路径点。"
+    not-on-beacon: "§c你必须站在信标上才能注册路径点。"
+    beacon-not-active: "§c信标未激活：下方至少需要一层基座（金字塔方块）。"
+    name-too-long: "§c路径点名称过长。最大长度：{max} 个字符。"
+    name-invalid: "§c路径点名称包含无效字符。"
+    limit-reached: "§c你已达到{type}路径点的最大数量（{max}）。"
+    not-found: "§c未找到路径点 {name}。"
+    deleted: "§a路径点 §l{name}§r§a 已删除。"
+    shared: "§a已将路径点 §l{name}§r§a 分享给 {player}。"
+    unshared: "§a已取消路径点 §l{name}§r§a 对 {player} 的分享。"
+    no-permission: "§c你没有权限执行此操作。"
+    reloaded: "§a配置已重载。"
+    world-not-allowed: "§c此世界不允许创建路径点。"
+
+gui:
+  title:
+    public-waypoints: "公共路径点"
+    private-waypoints: "你的私人路径点"
+    icon-picker: "选择图标"
+    options: "路径点选项"
+    beacon-menu: "信标菜单"
+
+  button:
+    previous-page: "§e上一页"
+    next-page: "§e下一页"
+    page-info: "§7第 §e{page}§7/§e{total} 页"
+    back: "§e返回"
+    delete: "§c删除路径点"
+    delete-confirm: "§4再次点击确认删除！"
+    change-icon: "§b更改图标"
+    teleport: "§a传送到 {name}"
+    settings: "§b设置"
+    public-beacons: "§e公共信标"
+    private-beacons: "§d私人信标"
+
+  lore:
+    settings: "§7管理此信标的路径点"
+    public-beacons: "§7浏览所有公共路径点"
+    private-beacons: "§7浏览你的私人路径点"
+    waypoint:
+      - "§7位置：{x}、{y}、{z}"
+      - "§7世界：{world}"
+      - "§7所有者：{owner}"
+      - ""
+      - "§e左键传送"
+    icon:
+      - ""
+      - "§e点击选择"
+    page:
+      - "§7前往第 {page} 页"
+
+  message:
+    icon-updated: "§a图标已更新为 {icon}。"
+
+teleport:
+  starting: "§b正在传送到 {name}..."
+  success: "§a已到达 {name}！"
+  cooldown: "§c请等待 {seconds} 秒后再传送。"
+  destination-not-active: "§c目的地信标 §l{name}§r§c 未激活，正在返航。"
+
+beacon:
+  broken: "§c拥有路径点 {name} 的信标已被破坏。"
+  discovered: "§a你发现了新路径点：{name}"
+
+error:
+  database: "§c数据库错误。请联系管理员。"
+
+misc:
+  public: "公共"
+  private: "私有"
